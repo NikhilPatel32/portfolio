@@ -84,7 +84,7 @@ const AboutSection = ({ id }) => {
       ref={sectionRef}
       id={id}
       className="h-screen relative overflow-hidden flex flex-col 
-      items-center justify-center 
+      items-center justify-center p-3
       bg-gradient-to-b from-black to-[#9a74cf50] px-6"
     >
 

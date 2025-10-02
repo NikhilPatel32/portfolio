@@ -8,7 +8,7 @@ const HeroSection = ( { id }) => {
     <section 
     id={id}
     className="h-screen relative flex items-center
-     px-10 lg:px-24 overflow-hidden pt-50 md:pt-10">
+     px-10 lg:px-24 overflow-hidden pt-50 md:pt-10 pb-2">
  
   <Spline 
   className="absolute inset-0 w-full h-full"
