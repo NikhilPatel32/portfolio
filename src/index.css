@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth; 
+  cursor: none;
+}
+
+body {
+  overflow-x: hidden; 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  cursor: none;
+  position: relative;
+  background-color: black;
+  color: white;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  cursor: none;
+}
+
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+.panel {
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 768px) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select {
+    cursor: auto; 
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+  }
+
+  .panel-title {
+    font-size: 2rem !important;
+  }
+
+  .panel-desc {
+    font-size: 1rem !important;
+  }
+}
+
+
+.horizontal-section {
+  display: flex;
+  width: max-content;
+}
+
+
+.project-image {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.project-title {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+.bg-gradient-line {
+  height: 4px;
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+  width: 100%;
+  margin: auto;
+}
