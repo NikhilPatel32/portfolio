@@ -30,7 +30,7 @@ const HeroSection = ( { id }) => {
       delay: 1.3,
       duration:1.5
     }}
-    className="text-2xl md:text-4xl lg:text-5xl font-bold
+    className="text-xl md:text-4xl lg:text-5xl font-bold
      text-white mb-6 font-serif">
       Hi, I am Nikhil Patel <br />
       <TypeAnimation
@@ -44,6 +44,7 @@ const HeroSection = ( { id }) => {
       wrapper="span"
       speed={50}
       repeat={Infinity}
+      className="text-2xl md:text-4xl lg:text-5xl font-bold text-purple-400"
     />
     </motion.h1>
     <motion.p 
