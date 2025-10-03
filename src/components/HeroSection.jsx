@@ -84,7 +84,7 @@ initial={{ opacity: 0, y: 80 }}
     boxShadow: "0 0 40px rgba(157, 78, 221, 1)"
   }}
 src={image} alt="Nikhil Patel" 
-className="lg:h-[25rem] md:h-[20rem] h-[20rem] rounded-full mix-blend-lighten"/>
+className="lg:h-[25rem] md:h-[20rem] h-[15rem] rounded-full mix-blend-lighten"/>
 </div>
 
 </section>

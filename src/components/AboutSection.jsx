@@ -108,7 +108,7 @@ const AboutSection = ({ id }) => {
       </div>
 
       <div className=" z-50 container mx-auto h-full flex flex-col
-       items-center justify-center text-center">
+       items-center justify-center text-center p-4">
         <h1
           ref={titleRef}
           className="text-4xl md:text-6xl font-extrabold 
